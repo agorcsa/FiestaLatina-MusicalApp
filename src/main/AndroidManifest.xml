@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.musicalstructure">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AppMenu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Playlist"
+            android:label="Playlist"
+            android:parentActivityName=".AppMenu" />
+        <activity
+            android:name=".NowPlaying"
+            android:label="Now Playing"
+            android:parentActivityName=".AppMenu" />
+        <activity
+            android:name=".SongDetails"
+            android:label="Song Details"
+            android:parentActivityName=".AppMenu" />
+        <activity
+            android:name=".BuyMusicOnline"
+            android:label="Buy Music Online"
+            android:parentActivityName=".AppMenu"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_bottom">10dp</dimen>
+    <dimen name="layout_margin">20dp</dimen>
+    <dimen name="titleText">20sp</dimen>
+</resources>

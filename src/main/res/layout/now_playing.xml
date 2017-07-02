@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fiesta"
+    android:labelFor="@id/activity_main"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.AppMenu">
+
+    <TextView
+        style="@style/TitleText"
+        android:text="Now Playing" />
+
+    <Button
+        android:id="@+id/playButton"
+        style="@style/PlayPauseButton"
+        android:text="@string/play" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_bottom">
+
+        <Button
+            android:id="@+id/pauseButton"
+            style="@style/PlayPauseButton"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/pause" />
+
+        <Button
+            android:id="@+id/playListButton"
+            style="@style/BackNext"
+            android:text="@string/playlist" />
+
+        <Button
+            android:id="@+id/songDetailsButton"
+            style="@style/BackNext"
+            android:layout_alignParentRight="true"
+            android:text="@string/song_details" />
+
+    </RelativeLayout>
+
+</LinearLayout>

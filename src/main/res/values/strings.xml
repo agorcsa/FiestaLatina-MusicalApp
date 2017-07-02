@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+    <string name="playlist">playlist</string>
+    <string name="now_playing">now playing</string>
+    <string name="song_details">song details</string>
+    <string name="buy_music_online">buy music online</string>
+    <string name="menu">menu</string>
+    <string name="song_name">Daniel Santacruz - No me sueltes</string>
+    <string name="play">play</string>
+    <string name="pause">pause</string>
+    <string name="song_info">Artist: Daniel Santacruz\nSong: No me sueltes\nAlbum: Lo Dice la Gente\nDate: 24.04.2014</string>
+    <string name="payment_info">by clicking on the button from below,\n which assures you direct connection to PayPal:</string>
+</resources>

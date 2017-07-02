@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:labelFor="@id/activity_main"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.AppMenu">
+
+    <LinearLayout
+        style="@style/LinearLayout"
+        android:background="@color/background">
+
+        <TextView
+            style="@style/TitleText"
+            android:text="@string/menu" />
+
+        <Button
+            android:id="@+id/playlistMenu"
+            style="@style/menuButton"
+            android:text="@string/playlist" />
+
+        <Button
+            android:id="@+id/nowPlayingMenu"
+            style="@style/menuButton"
+            android:text="@string/now_playing" />
+
+        <Button
+            android:id="@+id/songDetailsMenu"
+            style="@style/menuButton"
+            android:text="@string/song_details" />
+
+        <Button
+            android:id="@+id/buyMusicMenu"
+            style="@style/menuButton"
+            android:text="@string/buy_music_online" />
+
+    </LinearLayout>
+
+</LinearLayout>
+    
+
+
+
